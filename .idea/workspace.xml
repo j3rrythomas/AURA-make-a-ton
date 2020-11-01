@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="97faf5c6-28fc-4a5c-b08a-81f842d66cde" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jKo2JLa8GoI0ozHBBvjuSwR9qG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.maketoning">
+    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python">
+      <module name="SHEETSAPI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\RAHUL\AppData\Local\Programs\Python\Python38\pythonw.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="detect_face_mask" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SHEETSAPI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Face_Mask_Detection" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Face_Mask_Detection/detect_face_mask.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="elvator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SHEETSAPI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/elvator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="face_rec (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SHEETSAPI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/face_rec.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="face_rec" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SHEETSAPI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/face_rec" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/face_rec/face_rec.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="maketoning" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SHEETSAPI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/maketoning.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.detect_face_mask" />
+      <item itemvalue="Python.face_rec (1)" />
+      <item itemvalue="Python.face_rec" />
+      <item itemvalue="Python.maketoning" />
+      <item itemvalue="Python.elvator" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.maketoning" />
+        <item itemvalue="Python.elvator" />
+        <item itemvalue="Python.face_rec (1)" />
+        <item itemvalue="Python.face_rec" />
+        <item itemvalue="Python.detect_face_mask" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97faf5c6-28fc-4a5c-b08a-81f842d66cde" name="Default Changelist" comment="" />
+      <created>1603561935085</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603561935085</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="207" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604052664410">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="207" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1604052664410" />
+    <state x="548" y="171" key="FileChooserDialogImpl" timestamp="1603562200320">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603562200320" />
+    <state width="1537" height="174" key="GridCell.Tab.0.bottom" timestamp="1604205182664">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1537" height="174" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604205182664" />
+    <state width="1537" height="174" key="GridCell.Tab.0.center" timestamp="1604205182664">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1537" height="174" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604205182664" />
+    <state width="1537" height="174" key="GridCell.Tab.0.left" timestamp="1604205182664">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1537" height="174" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604205182664" />
+    <state width="1537" height="174" key="GridCell.Tab.0.right" timestamp="1604205182664">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1537" height="174" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604205182664" />
+    <state width="1537" height="269" key="GridCell.Tab.1.bottom" timestamp="1604134660827">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1537" height="269" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604134660827" />
+    <state width="1537" height="269" key="GridCell.Tab.1.center" timestamp="1604134660827">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1537" height="269" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1604134660827" />
+    <state width="1537" height="269" key="GridCell.Tab.1.left" timestamp="1604134660827">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1537" height="269" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1604134660827" />
+    <state width="1537" height="269" key="GridCell.Tab.1.right" timestamp="1604134660827">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1537" height="269" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1604134660827" />
+    <state x="279" y="58" key="SettingsEditor" timestamp="1604132859211">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="279" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604132859211" />
+    <state x="477" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1604205216931">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="477" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1604205216931" />
+    <state x="193" y="443" key="save.file.as.template.dialog" timestamp="1604137974124">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="193" y="443" key="save.file.as.template.dialog/0.0.1536.824@0.0.1536.824" timestamp="1604137974124" />
+    <state x="46" y="145" key="search.everywhere.popup" timestamp="1603608265556">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="46" y="145" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1603608265556" />
+  </component>
+</project>
