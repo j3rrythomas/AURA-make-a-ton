@@ -9,62 +9,79 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-import detect_face_mask,face_rec,elvator,maketonpro
+import face_rec,detect_face_mask,elvator,news
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(1110, 846)
+        MainWindow.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(79, 10, 200, 255), stop:1 rgba(255, 255, 255, 255));\n"
+"border-right-color: rgb(97, 97, 255);\n"
+"border-left-color: rgb(66, 126, 255);\n"
+"border-color: rgb(0, 85, 255);")
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
-        self.label = QtWidgets.QLabel(self.centralwidget)
-        self.label.setGeometry(QtCore.QRect(40, 30, 431, 131))
-        font = QtGui.QFont()
-        font.setPointSize(24)
-        self.label.setFont(font)
-        self.label.setObjectName("label")
         self.pushButton = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton.setGeometry(QtCore.QRect(800, 50, 241, 91))
+        self.pushButton.setGeometry(QtCore.QRect(110, 140, 871, 101))
         font = QtGui.QFont()
+        font.setFamily("Segoe Print")
         font.setPointSize(24)
+        font.setBold(False)
+        font.setItalic(False)
+        font.setWeight(50)
         self.pushButton.setFont(font)
+        self.pushButton.setStyleSheet("font: 24pt \"Playbill\";\n"
+"font: 24pt \"Segoe Print\";\n"
+"background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(0, 85, 255, 255), stop:1 rgba(0, 255, 127, 255));")
         self.pushButton.setObjectName("pushButton")
-        self.label_2 = QtWidgets.QLabel(self.centralwidget)
-        self.label_2.setGeometry(QtCore.QRect(40, 210, 331, 91))
-        font = QtGui.QFont()
-        font.setPointSize(24)
-        self.label_2.setFont(font)
-        self.label_2.setObjectName("label_2")
         self.pushButton_2 = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_2.setGeometry(QtCore.QRect(800, 210, 251, 101))
+        self.pushButton_2.setGeometry(QtCore.QRect(110, 300, 871, 101))
         font = QtGui.QFont()
+        font.setFamily("Segoe Print")
         font.setPointSize(24)
+        font.setBold(False)
+        font.setItalic(False)
+        font.setWeight(50)
         self.pushButton_2.setFont(font)
+        self.pushButton_2.setStyleSheet("font: 24pt \"Segoe Print\";\n"
+"background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(0, 85, 255, 255), stop:1 rgba(0, 255, 127, 255));")
         self.pushButton_2.setObjectName("pushButton_2")
-        self.label_3 = QtWidgets.QLabel(self.centralwidget)
-        self.label_3.setGeometry(QtCore.QRect(30, 350, 741, 111))
-        font = QtGui.QFont()
-        font.setPointSize(24)
-        self.label_3.setFont(font)
-        self.label_3.setObjectName("label_3")
         self.pushButton_3 = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_3.setGeometry(QtCore.QRect(800, 370, 251, 101))
+        self.pushButton_3.setGeometry(QtCore.QRect(110, 470, 871, 101))
         font = QtGui.QFont()
+        font.setFamily("Segoe Print")
         font.setPointSize(24)
+        font.setBold(False)
+        font.setItalic(False)
+        font.setWeight(50)
         self.pushButton_3.setFont(font)
+        self.pushButton_3.setStyleSheet("font: 24pt \"Segoe Print\";\n"
+"background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(0, 85, 255, 255), stop:1 rgba(0, 255, 127, 255));")
         self.pushButton_3.setObjectName("pushButton_3")
-        self.label_4 = QtWidgets.QLabel(self.centralwidget)
-        self.label_4.setGeometry(QtCore.QRect(30, 520, 391, 101))
-        font = QtGui.QFont()
-        font.setPointSize(24)
-        self.label_4.setFont(font)
-        self.label_4.setObjectName("label_4")
         self.pushButton_4 = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_4.setGeometry(QtCore.QRect(800, 520, 251, 91))
+        self.pushButton_4.setGeometry(QtCore.QRect(110, 620, 871, 91))
         font = QtGui.QFont()
+        font.setFamily("Segoe Print")
         font.setPointSize(24)
+        font.setBold(False)
+        font.setItalic(False)
+        font.setWeight(50)
         self.pushButton_4.setFont(font)
+        self.pushButton_4.setStyleSheet("font: 24pt \"Segoe Print\";\n"
+"background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(0, 85, 255, 255), stop:1 rgba(0, 255, 127, 255));")
         self.pushButton_4.setObjectName("pushButton_4")
+        self.label = QtWidgets.QLabel(self.centralwidget)
+        self.label.setGeometry(QtCore.QRect(220, 10, 661, 111))
+        font = QtGui.QFont()
+        font.setFamily("Playbill")
+        font.setPointSize(34)
+        font.setBold(False)
+        font.setItalic(False)
+        font.setWeight(50)
+        self.label.setFont(font)
+        self.label.setStyleSheet("font: 34pt \"Playbill\";\n"
+"background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0.302083 rgba(0, 170, 127, 255), stop:1 rgba(255, 255, 255, 255));")
+        self.label.setObjectName("label")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 1110, 25))
@@ -77,29 +94,27 @@ class Ui_MainWindow(object):
         self.pushButton_2.clicked.connect(self.click2)
         self.pushButton_3.clicked.connect(self.click1)
         self.pushButton_4.clicked.connect(self.click4)
+
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.label.setText(_translate("MainWindow", "GET LATEST NEWS"))
-        self.pushButton.setText(_translate("MainWindow", "CLICK HERE"))
-        self.label_2.setText(_translate("MainWindow", "CHECK FOR MASK"))
-        self.pushButton_2.setText(_translate("MainWindow", "CLICK HERE"))
-        self.label_3.setText(_translate("MainWindow", "CHECK IF U ARE IN THE DANGER "))
-        self.pushButton_3.setText(_translate("MainWindow", "CLICK HERE"))
-        self.label_4.setText(_translate("MainWindow", "ELEVATOR"))
-        self.pushButton_4.setText(_translate("MainWindow", "CLICK HERE"))
+        self.pushButton.setText(_translate("MainWindow", "LATEST NEWS"))
+        self.pushButton_2.setText(_translate("MainWindow", "CHECK FOR MASK"))
+        self.pushButton_3.setText(_translate("MainWindow", "CHECK IF U ARE IN THE DANGER "))
+        self.pushButton_4.setText(_translate("MainWindow", "ELEVATOR"))
+        self.label.setText(_translate("MainWindow", "         COVID PROOF OFFICE"))
 
     def click1(self):
         face_rec.f()
     def click2(self):
         detect_face_mask.f()
     def click3(self):
-        maketonpro.getl()
+        news.getl()
     def click4(self):
-        elvator.getl()
+        elvator.no_of_face()
 
 
 if __name__ == "__main__":
